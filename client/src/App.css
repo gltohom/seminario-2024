@@ -1,0 +1,68 @@
+.App {
+  display: flex;
+  flex-direction:  column;
+  justify-content: center;
+}
+
+.datos{
+  display: flex;
+  flex-direction:  column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.datos input{
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.datos button{
+  width: 320px;
+  height: 50px;
+  margin-top: 5px;
+}
+
+.containerGrafica {
+  display: flex;
+}
+
+.columnGrafica {
+  flex: 1; /* Cada columna tomará el mismo ancho */
+  padding: 0px;
+  
+}
+
+.column-left {
+  background-color: #f0f0f0; /* Color de fondo para la columna izquierda */
+}
+
+.column-right {
+  background-color: #f0f0f0; /* Color de fondo para la columna derecha */
+}
+
+.marginIzq{
+  margin-left: -3px;    
+}
+
+.containerLogin {
+  width: 80%;  /* Ajusta al porcentaje deseado */
+    max-width: 600px;  /* Limita el ancho máximo */
+    height: 30px;  /* Ajusta a la altura deseada */
+    padding: 20px;  /* Espacio interno */
+    margin: 0 auto;  /* Centrar el contenedor */
+    box-sizing: border-box;  /* Incluye padding y border en el ancho total */
+}
+
+.containerRegistro {
+  width: 100%;  /* Ajusta al porcentaje deseado */
+    max-width: 800px;  /* Limita el ancho máximo */
+    height: 30px;  /* Ajusta a la altura deseada */
+    padding: 20px;  /* Espacio interno */
+    margin: 0 auto;  /* Centrar el contenedor */
+    box-sizing: border-box;  /* Incluye padding y border en el ancho total */
+}
