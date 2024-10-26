@@ -62,7 +62,7 @@ const Layout = ({ userId, setUser }) =>{
               </ul>
               <ul className="navbar-nav ">
               <li className="nav-item">
-                <a className="nav-link active" onClick={handleLogout} style={{ cursor: 'pointer' }}>Cerrar sesión</a>
+                <a className="nav-link active" onClick={handleLogout} style={{ cursor: 'pointer' }} href="/">Cerrar sesión</a>
               </li>
               </ul>
   
